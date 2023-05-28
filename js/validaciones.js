@@ -46,6 +46,19 @@ const mensajesDeError = {
         valueMissing: "Este campo no puede estar vacio",
         patternMismatch: "El formato requerido es xxxxxxxxxx"
     },
+    direccion: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "La direccion debe contener entre 10 y 40 caracteres"
+    },
+    ciudad: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "La ciudad debe contener entre 10 y 40 caracteres"
+    },
+    estado: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "El estado debe contener entre 10 y 40 caracteres"
+
+    },
 };
 
 const validadores = {
